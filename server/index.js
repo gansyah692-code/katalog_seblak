@@ -22,7 +22,7 @@ app.get('/api/produk', (req,res) =>{
 }); 
 
 app.listen(port,() => {
-    console.log('berhasil berjalan ci http//localhost:${port}')
+    console.log(`berhasil berjalan ci http//localhost:${port}`)
     
 }
 );
